@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://192.168.1.10:3000";
+const API_BASE_URL = "https://api.sikuat.online";
 
 export const getAllTerms = async (page = 1, limit = 50) => {
   try {
